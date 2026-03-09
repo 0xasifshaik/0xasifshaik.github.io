@@ -4,7 +4,7 @@
   <id>https://0xasifshaik.github.io/</id>
   <title>0xAsifShaik</title>
   <subtitle>Android security research, reverse engineering, and technical deep-dives by Asif Shaik.</subtitle>
-  <updated>2026-02-19T11:26:05+00:00</updated>
+  <updated>2026-03-09T02:48:05+00:00</updated>
   <author>
     <name>Asif Shaik</name>
     <uri>https://0xasifshaik.github.io/</uri>
@@ -24,7 +24,7 @@
     <link href="https://0xasifshaik.github.io/posts/how-magisk-works/" rel="alternate" type="text/html" title="How Magisk Works: A Deep Dive into Android Rooting" />
     <published>2026-02-19T09:30:00+00:00</published>
   
-    <updated>2026-02-19T09:30:00+00:00</updated>
+    <updated>2026-03-09T02:47:03+00:00</updated>
   
     <id>https://0xasifshaik.github.io/posts/how-magisk-works/</id>
     <content type="text/html" src="https://0xasifshaik.github.io/posts/how-magisk-works/" />
@@ -40,7 +40,7 @@
     
   
 
-  <summary>Introduction  Magisk has become the de-facto standard for rooting Android devices. Unlike older methods that directly modified the /system partition, Magisk pioneered a systemless approach — leaving the system partition completely untouched while still granting full superuser access. But how does it actually work under the hood?  In this post, we’ll break down Magisk’s architecture, from boot i...</summary>
+  <summary></summary>
 
   </entry>
 

@@ -33,8 +33,8 @@
 <meta property="og:title" content="How Magisk Works: A Deep Dive into Android Rooting" />
 <meta name="author" content="Asif Shaik" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Introduction" />
-<meta property="og:description" content="Introduction" />
+<meta name="description" content="Android security research, reverse engineering, and technical deep-dives by Asif Shaik." />
+<meta property="og:description" content="Android security research, reverse engineering, and technical deep-dives by Asif Shaik." />
 <link rel="canonical" href="https://0xasifshaik.github.io/posts/how-magisk-works/" />
 <meta property="og:url" content="https://0xasifshaik.github.io/posts/how-magisk-works/" />
 <meta property="og:site_name" content="0xAsifShaik" />
@@ -45,7 +45,7 @@
 <meta name="twitter:site" content="@twitter_username" />
 <meta name="twitter:creator" content="@Asif Shaik" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Asif Shaik"},"dateModified":"2026-02-19T09:30:00+00:00","datePublished":"2026-02-19T09:30:00+00:00","description":"Introduction","headline":"How Magisk Works: A Deep Dive into Android Rooting","mainEntityOfPage":{"@type":"WebPage","@id":"https://0xasifshaik.github.io/posts/how-magisk-works/"},"url":"https://0xasifshaik.github.io/posts/how-magisk-works/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Asif Shaik"},"dateModified":"2026-03-09T02:47:03+00:00","datePublished":"2026-02-19T09:30:00+00:00","description":"Android security research, reverse engineering, and technical deep-dives by Asif Shaik.","headline":"How Magisk Works: A Deep Dive into Android Rooting","mainEntityOfPage":{"@type":"WebPage","@id":"https://0xasifshaik.github.io/posts/how-magisk-works/"},"url":"https://0xasifshaik.github.io/posts/how-magisk-works/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -210,16 +210,9 @@
 
   
 
-  
-    
-
-    
-
-  
 
 
-
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.18/dayjs.min.js,npm/dayjs@1.11.18/locale/en.js,npm/dayjs@1.11.18/plugin/relativeTime.js,npm/dayjs@1.11.18/plugin/localizedFormat.js,npm/tocbot@4.36.4/dist/tocbot.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.18/dayjs.min.js,npm/dayjs@1.11.18/locale/en.js,npm/dayjs@1.11.18/plugin/relativeTime.js,npm/dayjs@1.11.18/plugin/localizedFormat.js"></script>
 
 
 
@@ -511,184 +504,10 @@
   
 
   
-    
-    
-
-    
-      
-        
-        
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-
-    
-  
 
   
   
 
-  
-    
-    
-
-    
-      
-        
-        
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-
-    
   
 
   
@@ -715,7 +534,7 @@
 
 
 
-<article class="px-1" data-toc="true">
+<article class="px-1" data-toc="false">
   <header>
     <h1 data-toc-skip>How Magisk Works: A Deep Dive into Android Rooting</h1>
     
@@ -746,6 +565,29 @@
       </span>
 
       <!-- lastmod date -->
+      
+        <span>
+          Updated
+          <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1773024423"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Mar  9, 2026
+</time>
+
+        </span>
       
 
       
@@ -792,9 +634,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="1132 words"
+  title="0 words"
 >
-  <em>6 min</em> read</span>
+  <em>1 min</em> read</span>
 
         </div>
       </div>
@@ -802,384 +644,9 @@
   </header>
 
   
-    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
-      <span class="label text-truncate">How Magisk Works: A Deep Dive into Android Rooting</span>
-      <button type="button" class="toc-trigger btn me-1">
-        <i class="fa-solid fa-list-ul fa-fw"></i>
-      </button>
-    </div>
-
-    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
-      <span class="label ps-2 pe-1">Contents</span>
-      <i class="fa-solid fa-angle-right fa-fw"></i>
-    </button>
-
-    <dialog id="toc-popup" class="p-0">
-      <div class="header d-flex flex-row align-items-center justify-content-between">
-        <div class="label text-truncate py-2 ms-4">How Magisk Works: A Deep Dive into Android Rooting</div>
-        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
-          <i class="fas fa-close"></i>
-        </button>
-      </div>
-      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
-    </dialog>
-  
 
   <div class="content">
-    <h2 id="introduction"><span class="me-2">Introduction</span><a href="#introduction" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
-<p>Magisk has become the de-facto standard for rooting Android devices. Unlike older methods that directly modified the <code class="language-plaintext highlighter-rouge">/system</code> partition, Magisk pioneered a <strong>systemless</strong> approach — leaving the system partition completely untouched while still granting full superuser access. But how does it actually work under the hood?</p>
-
-<p>In this post, we’ll break down Magisk’s architecture, from boot image patching to its module system, and understand why it remains undetected by SafetyNet and Play Integrity.</p>
-
-<hr />
-
-<h2 id="the-problem-with-traditional-rooting"><span class="me-2">The Problem with Traditional Rooting</span><a href="#the-problem-with-traditional-rooting" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
-<p>Traditional root methods like <strong>SuperSU</strong> worked by:</p>
-
-<ol>
-  <li>Remounting <code class="language-plaintext highlighter-rouge">/system</code> as read-write</li>
-  <li>Placing the <code class="language-plaintext highlighter-rouge">su</code> binary in <code class="language-plaintext highlighter-rouge">/system/xbin/</code></li>
-  <li>Installing a management APK</li>
-</ol>
-
-<p>This had major drawbacks:</p>
-
-<ul>
-  <li><strong>OTA updates would fail</strong> — the modified system partition couldn’t pass verification</li>
-  <li><strong>SafetyNet tripped instantly</strong> — Google could detect system modifications</li>
-  <li><strong>dm-verity</strong> on newer devices would refuse to boot with a modified system</li>
-</ul>
-
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-</pre></td><td class="rouge-code"><pre># Traditional root — modifies /system directly
-mount -o remount,rw /system
-cp su /system/xbin/su
-chmod 6755 /system/xbin/su
-</pre></td></tr></tbody></table></code></div></div>
-
-<p>Magisk solved all of this with one elegant idea: <strong>don’t touch /system at all</strong>.</p>
-
-<hr />
-
-<h2 id="magisks-systemless-architecture"><span class="me-2">Magisk’s Systemless Architecture</span><a href="#magisks-systemless-architecture" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
-<h3 id="boot-image-patching"><span class="me-2">Boot Image Patching</span><a href="#boot-image-patching" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
-<p>Magisk operates entirely within the <strong>boot image</strong> (<code class="language-plaintext highlighter-rouge">boot.img</code>). Here’s what happens when you install Magisk:</p>
-
-<ol>
-  <li><strong>Extract</strong> the boot image from your device</li>
-  <li><strong>Unpack</strong> it — the boot image contains a kernel (<code class="language-plaintext highlighter-rouge">zImage</code>) and a ramdisk (<code class="language-plaintext highlighter-rouge">initramfs</code>)</li>
-  <li><strong>Patch the ramdisk</strong> — Magisk injects its <code class="language-plaintext highlighter-rouge">init</code> binary (<code class="language-plaintext highlighter-rouge">magiskinit</code>) into the ramdisk</li>
-  <li><strong>Repack and flash</strong> the modified boot image</li>
-</ol>
-
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></td><td class="rouge-code"><pre># Simplified boot image structure
-boot.img
-├── header
-├── kernel (zImage)
-├── ramdisk (initramfs)
-│   ├── init              ← replaced by magiskinit
-│   ├── magisk            ← Magisk daemon binary
-│   └── overlay.d/        ← Magisk overlay files
-└── dtb (device tree)
-</pre></td></tr></tbody></table></code></div></div>
-
-<p>The critical insight is that the kernel and ramdisk are loaded into <strong>RAM</strong> at boot — they don’t live on the <code class="language-plaintext highlighter-rouge">/system</code> partition. So modifying the boot image gives Magisk execution control without touching <code class="language-plaintext highlighter-rouge">/system</code>.</p>
-
-<h3 id="the-magiskinit-process"><span class="me-2">The MagiskInit Process</span><a href="#the-magiskinit-process" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
-<p>When the device boots, <code class="language-plaintext highlighter-rouge">magiskinit</code> runs as PID 1 (the first userspace process). Here’s the boot sequence:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-</pre></td><td class="rouge-code"><pre>┌─────────────────────────────────────────┐
-│              Bootloader                  │
-│          (loads boot.img)                │
-└──────────────┬──────────────────────────┘
-               │
-               ▼
-┌─────────────────────────────────────────┐
-│           magiskinit (PID 1)             │
-│  1. Patches sepolicy in memory          │
-│  2. Sets up tmpfs on /sbin (or /debug)  │
-│  3. Bind-mounts Magisk files            │
-│  4. Starts real init                    │
-└──────────────┬──────────────────────────┘
-               │
-               ▼
-┌─────────────────────────────────────────┐
-│          Android System Init             │
-│    (starts zygote, system_server)        │
-└──────────────┬──────────────────────────┘
-               │
-               ▼
-┌─────────────────────────────────────────┐
-│           magiskd (daemon)               │
-│  - Handles su requests                  │
-│  - Loads modules                        │
-│  - MagiskHide / Zygisk                  │
-└─────────────────────────────────────────┘
-</pre></td></tr></tbody></table></code></div></div>
-
-<h3 id="selinux-policy-patching"><span class="me-2">SELinux Policy Patching</span><a href="#selinux-policy-patching" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
-<p>One of Magisk’s most powerful features is <strong>live SELinux policy patching</strong>. Android enforces SELinux in enforcing mode, which would normally block any unauthorized process from running as root.</p>
-
-<p><code class="language-plaintext highlighter-rouge">magiskinit</code> patches the SELinux policy <strong>in memory</strong> before the real <code class="language-plaintext highlighter-rouge">init</code> loads it:</p>
-
-<div class="language-c highlighter-rouge"><div class="code-header">
-        <span data-label-text="C"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-</pre></td><td class="rouge-code"><pre><span class="c1">// Simplified — what magiskinit does</span>
-<span class="n">sepol_allow</span><span class="p">(</span><span class="s">"untrusted_app"</span><span class="p">,</span> <span class="s">"magisk"</span><span class="p">,</span> <span class="s">"unix_stream_socket"</span><span class="p">,</span> <span class="s">"connectto"</span><span class="p">);</span>
-<span class="n">sepol_allow</span><span class="p">(</span><span class="s">"magisk"</span><span class="p">,</span> <span class="s">"magisk"</span><span class="p">,</span> <span class="s">"process"</span><span class="p">,</span> <span class="s">"setcurrent"</span><span class="p">);</span>
-<span class="n">sepol_allow</span><span class="p">(</span><span class="s">"magisk"</span><span class="p">,</span> <span class="s">"zygote"</span><span class="p">,</span> <span class="s">"process"</span><span class="p">,</span> <span class="s">"ptrace"</span><span class="p">);</span>
-</pre></td></tr></tbody></table></code></div></div>
-
-<p>This grants the Magisk daemon the permissions it needs without modifying any on-disk policy files.</p>
-
-<hr />
-
-<h2 id="the-su-binary-and-root-management"><span class="me-2">The Su Binary and Root Management</span><a href="#the-su-binary-and-root-management" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
-<p>When an app requests root access:</p>
-
-<ol>
-  <li>The app calls the <code class="language-plaintext highlighter-rouge">su</code> binary (stored in Magisk’s tmpfs mount)</li>
-  <li><code class="language-plaintext highlighter-rouge">su</code> connects to the <strong>Magisk daemon</strong> (<code class="language-plaintext highlighter-rouge">magiskd</code>) via a Unix domain socket</li>
-  <li><code class="language-plaintext highlighter-rouge">magiskd</code> checks the policy in the Magisk Manager app’s database</li>
-  <li>If approved, <code class="language-plaintext highlighter-rouge">magiskd</code> forks a new process with <strong>UID 0</strong> and returns a root shell</li>
-</ol>
-
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre>App (uid=10XXX) → su → magiskd (uid=0) → fork() → root shell
-                   ↑                          │
-                   └──── Unix socket ─────────┘
-</pre></td></tr></tbody></table></code></div></div>
-
-<p>The key security model: apps never directly gain root. Everything goes through the daemon, which enforces per-app policies set by the user.</p>
-
-<hr />
-
-<h2 id="magiskhide-and-zygisk"><span class="me-2">MagiskHide and Zygisk</span><a href="#magiskhide-and-zygisk" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
-<h3 id="the-problem-detection"><span class="me-2">The Problem: Detection</span><a href="#the-problem-detection" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
-<p>Banking apps, Google Pay, and some games use <strong>SafetyNet / Play Integrity</strong> to detect rooted devices. They check for:</p>
-
-<ul>
-  <li>Modified system properties (<code class="language-plaintext highlighter-rouge">ro.debuggable</code>, <code class="language-plaintext highlighter-rouge">ro.secure</code>)</li>
-  <li>Presence of root-related files (<code class="language-plaintext highlighter-rouge">/sbin/su</code>, <code class="language-plaintext highlighter-rouge">/system/app/Superuser.apk</code>)</li>
-  <li>Unusual SELinux states</li>
-  <li>Boot image verification status</li>
-</ul>
-
-<h3 id="magiskhide-legacy"><span class="me-2">MagiskHide (Legacy)</span><a href="#magiskhide-legacy" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
-<p>MagiskHide worked by:</p>
-
-<ol>
-  <li>Monitoring the <strong>Zygote</strong> process (parent of all Android apps)</li>
-  <li>When a target app was about to start, unmounting all Magisk-related bind mounts from that process’s mount namespace</li>
-  <li>Temporarily reverting system properties</li>
-</ol>
-
-<h3 id="zygisk-modern"><span class="me-2">Zygisk (Modern)</span><a href="#zygisk-modern" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
-<p>Zygisk is Magisk’s newer approach — it loads directly into the <strong>Zygote</strong> process itself:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td><td class="rouge-code"><pre>Zygote Process
-├── Zygisk loaded (libzygisk.so)
-│   ├── DenyList: Hide root from listed apps
-│   └── Modules: Load Zygisk modules (LSPosed, etc.)
-├── fork() → Banking App (clean namespace, no traces)
-└── fork() → Normal App (has root access if granted)
-</pre></td></tr></tbody></table></code></div></div>
-
-<p>By running inside Zygote, Magisk can intercept <code class="language-plaintext highlighter-rouge">fork()</code> calls and ensure that denied apps get a completely clean process environment.</p>
-
-<hr />
-
-<h2 id="the-module-system"><span class="me-2">The Module System</span><a href="#the-module-system" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
-<p>Magisk modules work through <strong>bind mounts</strong> — overlaying files on top of the existing system without modifying it:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-</pre></td><td class="rouge-code"><pre># Module structure
-/data/adb/modules/my_module/
-├── module.prop          # Module metadata
-├── system/
-│   ├── etc/
-│   │   └── hosts        # Custom hosts file
-│   └── framework/
-│       └── services.jar # Modified framework (careful!)
-├── post-fs-data.sh      # Runs before Zygote
-└── service.sh           # Runs on boot complete
-</pre></td></tr></tbody></table></code></div></div>
-
-<p>During boot, Magisk scans all modules and creates bind mounts:</p>
-
-<div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre><span class="c"># What Magisk does for each module file</span>
-mount <span class="nt">-o</span> <span class="nb">bind</span> /data/adb/modules/my_module/system/etc/hosts /system/etc/hosts
-</pre></td></tr></tbody></table></code></div></div>
-
-<p>From the OS perspective, <code class="language-plaintext highlighter-rouge">/system/etc/hosts</code> appears to be the original file, but it’s actually the module’s version. The real file underneath is untouched.</p>
-
-<hr />
-
-<h2 id="why-magisk-survives-ota-updates"><span class="me-2">Why Magisk Survives OTA Updates</span><a href="#why-magisk-survives-ota-updates" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
-<p>Since Magisk only modifies the boot image:</p>
-
-<ol>
-  <li>OTA updates replace <code class="language-plaintext highlighter-rouge">/system</code>, <code class="language-plaintext highlighter-rouge">/vendor</code>, etc. — <strong>Magisk is unaffected</strong> because it doesn’t live there</li>
-  <li>If the OTA replaces the boot image, Magisk needs to be re-patched — but the Magisk app can do this automatically using the <strong>“Install to Inactive Slot”</strong> feature on A/B partition devices</li>
-</ol>
-
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></td><td class="rouge-code"><pre>Slot A (active):    patched boot.img (Magisk) ← running now
-Slot B (inactive):  stock boot.img
-
-After OTA:
-Slot A:             patched boot.img (Magisk)
-Slot B (inactive):  new stock boot.img → Magisk patches this → new patched boot.img
-
-Reboot:
-Slot B (active):    new patched boot.img (Magisk) ← still rooted!
-</pre></td></tr></tbody></table></code></div></div>
-
-<hr />
-
-<h2 id="key-takeaways"><span class="me-2">Key Takeaways</span><a href="#key-takeaways" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
-<div class="table-wrapper"><table>
-  <thead>
-    <tr>
-      <th>Aspect</th>
-      <th>Traditional Root</th>
-      <th>Magisk</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Modifies <code class="language-plaintext highlighter-rouge">/system</code></td>
-      <td>✅ Yes</td>
-      <td>❌ No</td>
-    </tr>
-    <tr>
-      <td>Survives OTA</td>
-      <td>❌ No</td>
-      <td>✅ Yes (A/B)</td>
-    </tr>
-    <tr>
-      <td>SafetyNet bypass</td>
-      <td>❌ No</td>
-      <td>✅ Yes (Zygisk)</td>
-    </tr>
-    <tr>
-      <td>Module system</td>
-      <td>❌ Limited</td>
-      <td>✅ Powerful</td>
-    </tr>
-    <tr>
-      <td>SELinux handling</td>
-      <td>❌ Disabled</td>
-      <td>✅ Policy patching</td>
-    </tr>
-  </tbody>
-</table></div>
-
-<p>Magisk’s genius lies in its <strong>systemless philosophy</strong> — achieving full root access and system modification capabilities without ever writing to the system partition. By operating from the ramdisk and using bind mounts, it maintains a clean system while providing unparalleled flexibility through its module framework.</p>
-
-<hr />
-
-<p><em>If you found this useful, consider sharing it. More Android security deep-dives coming soon.</em></p>
+    
 
   </div>
 
@@ -1501,12 +968,6 @@ Slot B (active):    new patched boot.img (Magisk) ← still rooted!
 
 
 
-
-  <div class="toc-border-cover z-3"></div>
-  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
-    <h2 class="panel-heading ps-3 pb-2 mb-0">Contents</h2>
-    <nav id="toc"></nav>
-  </section>
 
 
             
